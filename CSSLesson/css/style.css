@@ -6,3 +6,26 @@ h1{
     color: red;
     text-align: center;
 }
+
+/* universal selector */
+*{
+    letter-spacing: 20px;
+    /* margin 0px */
+    /* padding 0px */
+    color: red;
+}
+
+/* tag/element selector */
+p{
+    font-size: 50px;
+    color: green;
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: blue;
+    letter-spacing: 0px;
+}
+a[title="google"]{
+    color: yellow;
+}
