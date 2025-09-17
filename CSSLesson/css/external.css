@@ -35,3 +35,34 @@ h1{
 #desc a{
     color: green;
 }
+
+/* pseudo selector */
+
+a:link{
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+    font-size: 40px;
+}
+
+a:visited{
+    color:brown;
+}
+
+/* target */
+
+:target{
+    color:brown;
+
+}
+
+p:target{
+    color: green;
+}
