@@ -66,3 +66,111 @@ a:visited{
 p:target{
     color: green;
 }
+
+/* border */
+.borderone{
+    border: 6px solid blue;
+}
+
+.bordertwo{
+    border-bottom: 20px dotted yellow;
+}
+
+.borderthree{
+    /* border-style: dotted; */
+    /* all */
+    /* border-style: dotted solid; */
+    /* T&B / L&R */
+    border-style: solid dotted double;
+    /* T / L&R / B */
+    /* border-style: solid dashed double dotted */
+    /* T/R/B/L */
+
+}
+
+.borderfour{
+    border-style: solid;
+    border-color: red yellow green brown;
+    border-width: 30px 50px 100px;
+}
+
+/* margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.marginone{
+    margin: 50px 100px;
+    border: 1px solid black;
+}
+
+.margintwo{
+    margin-right: 200px;
+     border: 1px solid black;
+
+}
+
+/* padding */
+
+.paddingone{
+    /* padding: 10px 100px; */
+     border: 1px solid black;
+
+     padding-top: 300px;
+}
+
+/* Float */
+
+.float_left img{
+    width: 30%;
+    border: 2px solid black;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.float_right img{
+    width: 30%;
+    float: right;
+}
+
+/* grid */
+
+.gridone div,.gridtwo div,.gridthree div,.gridfour div{
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gridone,.gridtwo,.gridthree,.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo{
+    grid-column-gap: 40px;
+}
+
+.gridthree{
+    grid-row-gap: 50px;
+}
+
+.gridfour{
+    grid-gap: 40px;
+    /* grid-column-gap: 40px; */
+
+}
+
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.rowadd{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+}
